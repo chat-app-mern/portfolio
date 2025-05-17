@@ -238,6 +238,9 @@ p {
 .hero-section {
     padding-top: 126px;
 }
+section{
+    overflow: hidden !important;
+}
 .hero-section .row {
     --bs-gutter-x: 68px;
     row-gap: 29px;
