@@ -4,6 +4,80 @@
         row-gap: 30px;
     }
 }
+@media (max-width: 1024px) {
+    .hero-section {
+        padding-top: 40px;
+    }
+    .hero-section .hero-section-content p {
+        padding: 20px 0px;
+    }
+    .hero-section.about,
+    .skills,
+    .projects,
+    .contact {
+        padding: 40px 0px;
+    }
+    .hero-section.about .container {
+        width: 100%;
+        max-width: calc(100% - 30px);
+        margin: 0 auto;
+        padding: 30px 20px;
+    }
+    .h1,
+    h1 {
+        font-size: 40px;
+    }
+    .p,
+    p {
+        font-size: 16px;
+    }
+    .stats-card .heading {
+        font-size: 25px;
+    }
+    .stats-card .description {
+        font-size: 14px;
+    }
+    .h2,
+    h2 {
+        font-size: 30px;
+    }
+    .hero-section.about .hero-section-content p {
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    .skills h2 {
+        padding-bottom: 30px;
+    }
+    .upper-content {
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        gap: 10px;
+        padding-bottom: 15px;
+    }
+    .upper-content .company-content .role {
+        font-size: 18px;
+    }
+    .upper-content .date {
+        font-size: 14px;
+    }
+    .project-content {
+        padding: 20px 20px 0px 20px;
+    }
+    .project-card .link-wrapper {
+        padding: 0px 20px 20px 20px;
+    }
+    .skills-container {
+        gap: 40px;
+    }
+    .project-card .h3 {
+        font-size: 16px;
+    }
+    .btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
 @media (min-width: 767px) {
     .header-content .links {
         display: block;
@@ -12,8 +86,24 @@
     .close-button {
         display: none;
     }
+    .header-content .logo img {
+        width: 190px;
+        height: 56px;
+        object-fit: cover;
+    }
 }
 @media (max-width: 767px) {
+    .header-content .logo img {
+        width: 100px;
+        height: 30px;
+        object-fit: contain;
+    }
+    .header-wrap{
+        height: 60px;
+    }
+    .header-content{
+        padding: 15px 0px;
+    }
     .header-content {
         position: relative;
     }
@@ -39,6 +129,7 @@
         padding: 30px 20px;
         overflow-y: auto;
         animation: slideIn 0.6s ease-in-out forwards;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 10px;
     }
     .header-content .links ul {
         flex-direction: column;

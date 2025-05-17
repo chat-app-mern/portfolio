@@ -291,14 +291,14 @@ p {
 }
 .stats-card .heading {
     font-size: 32px;
-    line-height: 40px;
+    line-height: 1.25;
     font-weight: 600;
     word-break: break-all;
     color: var(--small-heading-color);
 }
 .stats-card .description {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     word-break: break-all;
     font-weight: 400;
     color: var(--description-color);
@@ -342,14 +342,14 @@ p {
 }
 .project-card .project-category {
     font-size: 12px;
-    line-height: 16px;
+    line-height: 1.334;
     font-weight: 500;
     color: var(--small-heading-color);
 }
 .project-card .h3 {
     font-size: 18px;
     margin: 0;
-    line-height: 24px;
+    line-height: 1.334;
     font-weight: 600;
     color: var(--heading-color);
     padding-bottom: 12px;
@@ -397,7 +397,7 @@ p {
 }
 .upper-content .company-content .role {
     font-size: 21px;
-    line-height: 33px;
+    line-height: 1.572;
     font-weight: 700;
 }
 .upper-content .date {
@@ -422,12 +422,12 @@ p {
     color: var(--white-color);
     padding-bottom: 35px;
 }
-.contact-links{
+.contact-links {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.contact-link-wrapper a{
+.contact-link-wrapper a {
     display: inline-flex;
     gap: 10px;
     font-size: 16px;
@@ -436,41 +436,41 @@ p {
     align-items: center;
     transition: var(--web-transition);
 }
-.contact-link-wrapper a img{
+.contact-link-wrapper a img {
     width: 30px;
     height: 30px;
     object-fit: cover;
 }
-.contact-link-wrapper a:hover{
+.contact-link-wrapper a:hover {
     color: var(--secondary-color);
 }
-.header-wrap{
+.header-wrap {
     height: 96px;
 }
-.header-wrap header{
+.header-wrap header {
     position: fixed;
     width: 100%;
     z-index: 12;
     background-color: var(--white-color);
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 10px;
 }
-.header-content{
+.header-content {
     padding: 20px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header-content .links ul{
+.header-content .links ul {
     display: flex;
     gap: 30px;
 }
-.header-content .links ul li a{
+.header-content .links ul li a {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     font-weight: 500;
     color: var(--black-color);
     transition: var(--web-transition);
 }
-.header-content .links ul li a:hover{
+.header-content .links ul li a:hover {
     color: var(--primary-color);
 }

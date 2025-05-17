@@ -15,16 +15,19 @@ export const Header = () => {
       $('html, body').animate({
         scrollTop: target.offset().top - headerHeight
       }, 1000);
+      document.querySelector('body').style.overflow = "unset";
+      setOpen(false);
     }
   });
   return () => {
     $('a[href^="#"]').off('click');
   };
 }, []);
-  const handleClick=()=>{
+  const handleOpen=()=>{
       document.querySelector('body').style.overflow="hidden";
       setOpen(true);
   }
+
   const handleClose=()=>{
       document.querySelector('body').style.overflow="unset";
       setOpen(false);
@@ -38,7 +41,7 @@ export const Header = () => {
                     <img src={logo} alt="logo" width={'190'} height={'56'} />
                 </div>
                 <div className='menu-button'>
-                    <button onClick={handleClick}>
+                    <button onClick={handleOpen}>
                      <img src={openButton} alt="open" width={'30'} height={'30'} />
                     </button>
                 </div>
