@@ -128,6 +128,7 @@ function App() {
             <ContactLink target="_blank" image={linkedinIcon} url={'https://www.linkedin.com/in/mauryasoni/'} text={'mauryasoni'} />
             <ContactLink target="_blank" image={gitIcon} url={'https://github.com/mauryasoni2201'} text={'mauryasoni2201'} />
             <ContactLink image={emailIcon} url={'mailto:mauryasoni71@gmail.com'} text={'mauryasoni71@gmail.com'} />
+            <p className="p copyright">🌟 Made with ❤️ by Maurya Soni</p>
         </div>
         </div>
     </section>

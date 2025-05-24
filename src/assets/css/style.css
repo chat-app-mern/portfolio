@@ -238,7 +238,7 @@ p {
 .hero-section {
     padding-top: 126px;
 }
-section{
+section {
     overflow: hidden !important;
 }
 .hero-section .row {
@@ -476,4 +476,11 @@ section{
 }
 .header-content .links ul li a:hover {
     color: var(--primary-color);
+}
+.copyright {
+    color: var(--white-color);
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 600;
+    padding-top: 5px;
 }
